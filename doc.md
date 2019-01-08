@@ -1,11 +1,14 @@
-# Documentation de l'api
 
-## / 
+# Documentation de l'api Alcolometrix
+
+API basée en Flask pour le lulz
+
+## /  
 
 Ne demande rien en entrée.
-Retourne un message d'accueil
+Retourne un message d'accueil et de modération
 
-## /api/beverage POST
+## /api/beverage POST
 
 Prend un json avec :
 barcode
