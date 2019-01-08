@@ -27,6 +27,6 @@ retourne tous les différents prix correspondant
 ## /api/price/\<int:barcode\>/\<int:postcode\>  GET
 
 Prend un entier représentant le code barre de la boisson et le code postal de l'achat
-retourne tous les prix correspondants au code barre et sa localisation
+retourne le prix moyen constaté
 
 
