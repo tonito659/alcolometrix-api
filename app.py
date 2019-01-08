@@ -42,7 +42,7 @@ def hello_world():
 
 @app.route('/api/beverage', methods = ["POST"])
 def add_an_item():
-    if not request.json or not ('barcode'|'price'|'postcode') in request.json:
+    if not request.json or not ('barcode' or 'price' or 'postcode') in request.json:
         abort(400)
 
         barcode = request.json.get('barcode')
